@@ -1,4 +1,3 @@
-
 /**
  * The Pet class - a start of the Pet Inheritance Hierarchy
  */
@@ -13,7 +12,6 @@ public class Pet
         name = "default pet";
     }
 
-    
     public Pet(String n)
     {
         name = n;
