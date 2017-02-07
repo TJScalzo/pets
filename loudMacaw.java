@@ -6,11 +6,11 @@ public class loudMacaw extends Macaw
     //constructors
     public loudMacaw()
     {
-        super();
+        super("CHIRPY");
     }
     public loudMacaw(String n)
     {
-        super(n);
+        super(n.toUpperCase());
     }
     //method
     public String speak()
