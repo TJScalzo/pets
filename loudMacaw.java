@@ -22,6 +22,6 @@ public class loudMacaw extends Macaw
     
     public String eat()
     {
-        return super.getName() + " eats all of the bird seed.";
+        return super.eat() + " " + super.getName() + " also drops some.";
     }
 }
