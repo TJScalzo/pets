@@ -47,7 +47,12 @@ public class Zoo
     
     public void feedPets()
     {
-        for(int i = 0; i < numPets; i++)
-            theZoo[i].eat();
+        for(int i = 0; i < numPets; i++) {
+            System.out.print("Area " + (i+1) + ": ");
+            if(theZoo[i] != null)
+                System.out.println(theZoo[i].eat());
+            else
+                System.out.println("There is no animal in this area of the Zoo.");
+        }
     }
 }
