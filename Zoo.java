@@ -45,13 +45,9 @@ public class Zoo
         }
     }
     
-    public void feedZoo()
+    public void feedPets()
     {
-        Pet p1 = new loudMacaw();
-        Pet p2 = new loudMacaw("Fitz");
-        Pet p3 = new Macaw();
-        p1.eat();
-        p2.eat();
-        p3.eat();
+        for(int i = 0; i < numPets; i++)
+            theZoo[i].eat();
     }
 }
