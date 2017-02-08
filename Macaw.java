@@ -8,13 +8,20 @@ public class Macaw extends Pet
     {
         super("Chippy");
     }
+    
     public Macaw(String n)
     {
         super(n);
     }
-    //method
+    
+    //methods
     public String speak()
     {
         return super.getName() + " wants a cracker!";
+    }
+    
+    public String eat()
+    {
+        return super.getName() + " eats some bird seed.";
     }
 }

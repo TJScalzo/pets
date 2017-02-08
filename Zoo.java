@@ -27,7 +27,7 @@ public class Zoo
         Pet[] zoo = new Pet[numPets];
         for(int i = 0; i < numPets; i++) {
             if(Math.random() < 0.5)
-                zoo[i] = new Pet("Gerald");
+                zoo[i] = new loudMacaw("Gerald");
             else
                 zoo[i] = new Macaw();
         }
@@ -43,5 +43,15 @@ public class Zoo
             else
                 System.out.println("There is no animal in this area of the Zoo.");
         }
+    }
+    
+    public void feedZoo()
+    {
+        Pet p1 = new loudMacaw();
+        Pet p2 = new loudMacaw("Fitz");
+        Pet p3 = new Macaw();
+        p1.eat();
+        p2.eat();
+        p3.eat();
     }
 }

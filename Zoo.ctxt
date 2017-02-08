@@ -7,4 +7,6 @@ comment2.params=numPets
 comment2.target=Pet[]\ createZoo(int)
 comment3.params=
 comment3.target=void\ soundOff()
-numComments=4
+comment4.params=
+comment4.target=void\ feedZoo()
+numComments=5
