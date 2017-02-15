@@ -73,5 +73,5 @@ public abstract class Pet
 7. Can you create an object from an abstract class? Try it with `Pet` and see. Why do constructors exist in an abstract class such as `Pet`? What do non-abstract methods such as` getName()` still exist in an abstract class such as `Pet`?
 
 
-### Challenge 6 (Interfaces)
+### Challenge 6 ([Interfaces](https://github.com/TJScalzo/APCS-Work/tree/master/Practice_with_Interfaces#interfaces-challenge-6))
 This challenge is part of a separate project in BlueJ because it's all about interfaces. Therefore, it's part of a separate repo on GitHub. Go look at [this README](https://github.com/TJScalzo/Practice_with_Interfaces#interfaces-challenge-6).
