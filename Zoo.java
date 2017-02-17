@@ -31,8 +31,8 @@ public class Zoo
         theZoo[17] = new Pet("boring pet");
         theZoo[18] = new Pet("boring pet");
         theZoo[19] = new DireWolf();
-        theZoo[20] = new Pet("boring pet");
-        theZoo[10] = new Pet("boring pet");
+        theZoo[20] = new Macaw("Gerald");
+        theZoo[21] = new Pet("boring pet");
     }
     
     public Zoo(int numPets)
